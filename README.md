@@ -1,6 +1,9 @@
 # QrcodeGenerator
 這是一個使用 Python (Tkinter + Segno) 開發的進階 QR Code 產生器。具備即時預覽、自訂顏色、動態 UI 排版及多項專家級參數設定功能。
 
+# Releases
+https://github.com/lee18-in/QrcodeGenerator/releases/tag/v1.0.0
+
 ## 功能特色
 * **即時動態預覽**: 輸入文字當下即可即時生成 QR Code 並在右側進行預覽，預覽圖會根據視窗縮放自動調整大小。
 * **自訂外觀與顏色**: 支援靈活調整「填充」與「背景」顏色，並在下拉選單中智慧呈現顏色的高對比視覺效果。

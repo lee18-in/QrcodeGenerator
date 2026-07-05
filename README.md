@@ -1,3 +1,6 @@
+<!-- AI AGENTS: Read ./AGENTS.md first, then ./LLM_MEMORY.md.
+     Do NOT write planning content into this file. -->
+
 # QrcodeGenerator
 這是一個使用 Python (Tkinter + Segno) 開發的進階 QR Code 產生器。具備即時預覽、自訂顏色、動態 UI 排版及多項專家級參數設定功能。
 

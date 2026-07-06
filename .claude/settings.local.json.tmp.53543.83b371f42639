@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git config *)",
-      "Bash(chmod +x scripts/hooks/pre-commit scripts/hooks/commit-msg)",
-      "Bash(git commit -m ' *)"
-    ]
-  }
-}

@@ -5,8 +5,8 @@
 ## A. 目前狀態(每次交接必更新)
 
 - 目前階段: maintain
-- 最後更新: 2026-09-12 10:46 / 當時階段: maintain
-- 交接基準 commit: 0f1ccb4 [maintain] 升級 AI agent 工作流至 Playbook v9
+- 最後更新: 2026-09-12 11:17 / 當時階段: maintain
+- 交接基準 commit: 48d6b16 [maintain] venv 與 bin 建置產物移出版控，修正從未生效的 .gitignore 引號語法
 - 進行中任務: 測試現有功能，邊用邊測發現並修復 bug
 - 阻塞點: 2026-09-12 10:46 那筆（venv／bin 移出版控）待審閱，需新 session／新工具承接（§2.1 禁止左手審右手）
 
@@ -30,6 +30,12 @@
 - [ ]
 
 ## C. 交接日誌(只追加,不刪改;最新在最上,每筆一個小節)
+
+### 2026-09-12 11:17 [maintain] 使用工具: Claude Opus 5 (Cursor)
+
+- 完成了什麼: 使用者裁示 A1：`git filter-repo` 自歷史徹底移除 `bin/*.AppImage`／`bin/*.exe`／`venv/`。`.git` 65M→180K。gitignore 規則已存在，無需再改。
+- 下一個 agent 該做什麼: 本次改動需要審閱: 確認 Releases 流程仍可取得安裝檔。等待新 session 審閱。
+- 地雷警告: 未 push；待使用者確認後 force-push（覆寫遠端歷史）。filter-repo 後舊 SHA 全部失效。
 
 ### 2026-09-12 10:46 [maintain] 使用工具: Claude Opus 5 (Cursor)
 

@@ -1,1 +1,12 @@
-"venv/" 
+# Python 虛擬環境
+# 註：原內容為 "venv/"（含雙引號），gitignore 不支援引號語法，該行從未生效；
+# 一併擴充為 venv*/ 以涵蓋 venv2/、venv-1/ 這類建立失敗時留下的變體目錄。
+venv*/
+.venv*/
+
+# 建置產物（由 PyInstaller / appimagetool 產生，不進版控）
+bin/*.AppImage
+bin/*.exe
+build/
+dist/
+*.spec

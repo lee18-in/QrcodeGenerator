@@ -5,7 +5,7 @@
 ## A. 目前狀態(每次交接必更新)
 
 - 目前階段: maintain
-- 最後更新: 2026-09-12 11:17 / 當時階段: maintain
+- 最後更新: 2026-09-14 10:20 / 當時階段: maintain
 - 交接基準 commit: 48d6b16 [maintain] venv 與 bin 建置產物移出版控，修正從未生效的 .gitignore 引號語法
 - 進行中任務: 測試現有功能，邊用邊測發現並修復 bug
 - 阻塞點: 2026-09-12 10:46 那筆（venv／bin 移出版控）待審閱，需新 session／新工具承接（§2.1 禁止左手審右手）
@@ -30,6 +30,12 @@
 - [ ]
 
 ## C. 交接日誌(只追加,不刪改;最新在最上,每筆一個小節)
+
+### 2026-09-14 10:20 [maintain] 使用工具: Antigravity
+
+- 完成了什麼: 依使用者指示，將 AGENTS.md 升級至 Playbook v10（三層架構規範、防膨脹門檻改為 10KB、單筆長度上限約 1200 bytes、Review Loop 排除 COMPONENT_MAP.md）。
+- 下一個 agent 該做什麼: 使用者明示推送到 GitHub（豁免本次審閱）。請後續接手的 agent 依各自專案階段推進任務。
+- 地雷警告: 無
 
 ### 2026-09-12 11:17 [maintain] 使用工具: Claude Opus 5 (Cursor)
 

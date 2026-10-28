@@ -5,8 +5,8 @@
 ## A. 目前狀態(每次交接必更新)
 
 - 目前階段: maintain
-$12026-10-22 11:15 / 當時階段: maintain
-- 交接基準 commit: 48d6b16 [maintain] venv 與 bin 建置產物移出版控，修正從未生效的 .gitignore 引號語法
+- 最後更新: 2026-10-28 11:39 / 當時階段: maintain
+- 交接基準 commit: 9c9f1b6 [maintain] 升級 AI agent 工作流至 Playbook v11
 - 進行中任務: 測試現有功能，邊用邊測發現並修復 bug
 - 阻塞點: 2026-09-12 10:46 那筆（venv／bin 移出版控）待審閱，需新 session／新工具承接（§2.1 禁止左手審右手）
 
@@ -30,6 +30,14 @@ $12026-10-22 11:15 / 當時階段: maintain
 - [ ]
 
 ## C. 交接日誌(只追加,不刪改;最新在最上,每筆一個小節)
+
+### 2026-10-28 11:39 [maintain] 使用工具: Cursor Grok 4.7
+
+- 完成了什麼: 使用者指示把本目錄 AGENTS.md 從 online v11 整份覆蓋成 v12。與其他 v11 檔內容相同，沒有模板外自訂規則。覆蓋前 hash 9c9f1b6。
+- 驗證方式: 讀檔首兩行是 Playbook-Version: 12 與 Playbook-Variant: online，且有「## 6. 對人訂正」。
+- 下一個 agent 該做什麼: 本次改動需要審閱：對照 v12 模板，確認條文一致且 A 區進行中任務沒被改寫。等待新 session／新工具審閱。
+- 地雷警告: 無
+
 
 ### 2026-10-22 11:15 [maintain] 使用工具: Cursor Auto
 
